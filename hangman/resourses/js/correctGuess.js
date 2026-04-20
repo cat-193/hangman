@@ -30,7 +30,7 @@ export const checkWordCorrectOnKeyboard = (button, clickedLetter) => {
     });
   } else {
     wrongCount++;
-    hangmanImage.src = `/unnamed-193-JSFE2023Q4/hangman/resourses/image/hangman-${wrongCount}.svg`;
+    hangmanImage.src = `../image/hangman-${wrongCount}.svg`;
   }
 
   button.disabled = true;
@@ -74,7 +74,7 @@ export const checkWordCorrectInput = () => {
       });
     } else {
       wrongCount++;
-      hangmanImage.src = `/unnamed-193-JSFE2023Q4/hangman/resourses/image/hangman-${wrongCount}.svg`;
+      hangmanImage.src = `../image/hangman-${wrongCount}.svg`;
     }
     guessCount.textContent = `${wrongCount} / ${maxGuesses}`;
 
