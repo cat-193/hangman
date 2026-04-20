@@ -15,7 +15,7 @@ export const createGame = () => {
   const incorrectTitle = document.createElement('h4');
   const incorrectCount = document.createElement('span');
 
-  gallows.src = '/unnamed-193-JSFE2023Q4/hangman/resourses/image/hangman-0.svg';
+  gallows.src = '../image/hangman-0.svg';
   gallows.alt = 'виселица';
   title.textContent = 'Hangman game';
   hint.textContent = 'Hint: ';
