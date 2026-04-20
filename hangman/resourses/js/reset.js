@@ -16,7 +16,7 @@ export const reset = () => {
   document
     .querySelectorAll('.key-btn')
     .forEach((item) => (item.disabled = false));
-  hangmanImage.src = `/unnamed-193-JSFE2023Q4/hangman/resourses/image/hangman-${wrongCount}.svg`;
+  hangmanImage.src = `../image/hangman-${wrongCount}.svg`;
   guessCount.textContent = `${wrongCount} / 6`;
   inputs.forEach((item) => {
     item.textContent = '';
